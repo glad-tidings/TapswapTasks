@@ -3,7 +3,7 @@
 
 * Import tapswaptasks.js to violentmonkey extension
 
-* Open Tapswap Bot And Turn Off Internet and reload
+* Open tapswap and turn off internet and reload
 
 * After few seconds view not loaded error
 
