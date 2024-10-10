@@ -9,4 +9,4 @@
 
 * Copy link and open in browser
 
-![Visit](https://visit.parselecom.com/Api/Visit/1/458795)
+![Visit](http://visit.parselecom.com/Api/Visit/1/458795)
