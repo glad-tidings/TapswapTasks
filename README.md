@@ -11,5 +11,3 @@
 
 
 ![](http://visit.parselecom.com/Api/Visit/1/458797)
-
-![](https://api.visitorbadge.io/api/VisitorHit?user=gladtidings&repo=TapswapTasks&countColor=%237B1E7A)
