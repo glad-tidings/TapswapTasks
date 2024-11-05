@@ -6,14 +6,15 @@ I am not responsible for your account. Please consider the potential risks befor
 
 ## How to run
 * Install extension in your browser [Violentmonkey](https://chromewebstore.google.com/detail/violentmonkey/jinjaccalgkegednnccohejagnlnfdag?hl=be)
-
 * Import tapswaptasks.js to violentmonkey extension
-
 * Open tapswap and turn off internet and reload
-
 * After few seconds view not loaded error
-
 * Copy link and open in browser
 
+## ☕Buy me a coffee
+```
+USDT(TRC20): TRjdnBWpS1xT4a2oKQdFsM3AAc6TxVmqGZ
+TON: UQBmpnet6lYCLXObDwJLitDuMcPIocJIKVxg6pLvaFv5fRmO
+```
 
 ![](http://visit.parselecom.com/Api/Visit/1/458797)
