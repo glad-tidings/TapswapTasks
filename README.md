@@ -11,6 +11,10 @@ I am not responsible for your account. Please consider the potential risks befor
 * After few seconds view not loaded error
 * Copy link and open in browser
 
+## Learn
+* [Get Telegram MiniGame Query ID using Chrome](https://youtu.be/r0Ulqev-9M4)
+* [Add Violentmonkey Extension to Chrome and Import TapSwap Script](https://youtu.be/4q9ebuRfeiA)
+
 ## ☕Buy me a coffee
 ```
 USDT(TRC20): TRjdnBWpS1xT4a2oKQdFsM3AAc6TxVmqGZ
