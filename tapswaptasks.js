@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         TapswapTasks
 // @namespace    https://github.com/glad-tidings/
-// @version      3.0
+// @version      3.1
 // @description  Tapswap Auto Task Claim
 // @author       Glad Tidings
 // @match        https://app.tapswap.club/*
@@ -68,7 +68,7 @@
             question = question.replace("`", "");
             console.log("Question : ---" + question + "---");
             fetch(
-                "https://raw.githubusercontent.com/glad-tidings/TapswapTasks/refs/heads/main/list.json"
+                "https://raw.githubusercontent.com/glad-tidings/TapswapTasks/refs/heads/main/list.json", {cache: "no-store"}
             ).then(function (response) {
                 response.text().then(function (text) {
                     storedText = text;
@@ -116,8 +116,11 @@
                 console.log("Answer : ---" + answers + "---");
                 setTimeout(function () {
                     const input = document.querySelector('input[type="string"]');
-                    if (input) {
+                    if (input && storedText != "") {
                         input.focus();
+                    }
+                    else {
+                        backbutton.click();
                     }
                 }, 1000);
             }
