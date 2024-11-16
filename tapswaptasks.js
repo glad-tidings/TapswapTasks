@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         TapswapTasks
 // @namespace    https://github.com/glad-tidings/
-// @version      3.1
+// @version      3.2
 // @description  Tapswap Auto Task Claim
 // @author       Glad Tidings
 // @match        https://app.tapswap.club/*
@@ -146,7 +146,6 @@
             const claimm = Array.from(document.querySelectorAll("button")).find((elem) => elem.textContent.includes("Claim"));
             const startmission = Array.from(document.querySelectorAll("button")).find((elem) => elem.textContent.includes("Start mission"));
             const perror = Array.from(document.querySelectorAll("p")).find((elem) => elem.textContent.includes("Looks like you"));
-            const iaerror = Array.from(document.querySelectorAll('a[class^="_notificationContainer_qgv94_1"]')).find((elem) => elem.style.contains("0px"));
             const tasklistcinema = Array.from(document.querySelectorAll("button")).find((elem) => elem.textContent.includes("Cinema"));
             const tasklistspecial = Array.from(document.querySelectorAll("button")).find((elem) => elem.textContent.includes("Special"));
             const tasklistleagues = Array.from(document.querySelectorAll("button")).find((elem) => elem.textContent.includes("Leagues"));
@@ -158,9 +157,6 @@
             }
             if (perror && check) {
                 check.click();
-                backbutton.click();
-            }
-            if (iaerror) {
                 backbutton.click();
             }
             if (gomission) {
@@ -197,7 +193,7 @@
             if (watchclick && finishmission && !check && !submitt) {
                 watchclick.click();
             }
-            if (watchclick && finishmission && !check && submitt && !perror && !iaerror) {
+            if (watchclick && finishmission && !check && submitt && !perror) {
                 const firstitem = document.querySelectorAll("h3")[0].innerHTML;
                 getanswer(firstitem);
             }
