@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         TapswapTasks
 // @namespace    https://github.com/glad-tidings/
-// @version      3.2
+// @version      3.3
 // @description  Tapswap Auto Task Claim
 // @author       Glad Tidings
 // @match        https://app.tapswap.club/*
@@ -194,7 +194,7 @@
                 watchclick.click();
             }
             if (watchclick && finishmission && !check && submitt && !perror) {
-                const firstitem = document.querySelectorAll("h3")[0].innerHTML;
+                const firstitem = document.querySelectorAll("h3")[0].innerText;
                 getanswer(firstitem);
             }
             if (check) {
